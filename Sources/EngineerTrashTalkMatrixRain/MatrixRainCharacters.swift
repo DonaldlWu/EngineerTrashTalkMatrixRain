@@ -41,7 +41,7 @@ struct MatrixRainCharacters: View {
                 .offset(y: startAnimation ? size.height : -randomHeight)
         }
         .onAppear {
-            withAnimation(.linear(duration: 3).delay(.random(in:0...2)).repeatForever(autoreverses: false)) {
+            withAnimation(.linear(duration: 12).delay(.random(in:0...3)).repeatForever(autoreverses: false)) {
                 startAnimation.toggle()
             }
         }
