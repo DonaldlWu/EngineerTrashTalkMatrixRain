@@ -1,6 +1,5 @@
 import SwiftUI
 
-@available(iOS 14, macOS 12.0, *)
 public struct MatrixRainView: View {
     
     public var body: some View {
@@ -21,7 +20,6 @@ public struct MatrixRainView: View {
     }
 }
 
-@available(iOS 14, macOS 12.0, *)
 struct MatrixRainView_Previews: PreviewProvider {
     static var previews: some View {
         MatrixRainView()

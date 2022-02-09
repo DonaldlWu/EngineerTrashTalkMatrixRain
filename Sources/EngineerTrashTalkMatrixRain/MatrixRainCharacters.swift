@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@available(iOS 14, macOS 12.0, *)
 struct MatrixRainCharacters: View {
     var size: CGSize
     @State var startAnimation: Bool = false
