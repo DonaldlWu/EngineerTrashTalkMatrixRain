@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct MatrixRainCharacters: View {
+public struct MatrixRainCharacters: View {
     var size: CGSize
     @State var startAnimation: Bool = false
     @State var random: Int = 0
     
-    var body: some View {
+    public var body: some View {
         let randomHeight: CGFloat = .random(in: (size.height / 2)...size.height)
         VStack {
             
