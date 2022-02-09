@@ -2,6 +2,10 @@ import SwiftUI
 
 public struct MatrixRainView: View {
     
+    public init() {
+        
+    }
+    
     public var body: some View {
         ZStack {
             Color.black
